@@ -1,0 +1,41 @@
+{
+  "name": "yb-vue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel index.html --open",
+    "server": "nodemon server/web.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vue/component-compiler-utils": "^3.2.0",
+    "axios": "^0.21.0",
+    "element-ui": "^2.15.1",
+    "express": "^4.17.1",
+    "parcel-bundler": "^1.12.4",
+    "vue": "^2.6.12",
+    "vue-hot-reload-api": "^2.3.4",
+    "vue-router": "^3.4.9",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "alias": {
+    "vue": "./node_modules/vue/dist/vue.common.js"
+  },
+  "description": "",
+  "devDependencies": {
+    "@babel/core": "^7.14.0",
+    "@babel/plugin-transform-runtime": "^7.13.15",
+    "@babel/preset-env": "^7.14.9",
+    "@babel/preset-react": "^7.13.13",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "body-parser": "^1.19.0",
+    "node-sass": "^5.0.0",
+    "nodemon": "^2.0.12",
+    "sass-loader": "^11.0.1",
+    "vue-particles": "^1.0.9"
+  }
+}
