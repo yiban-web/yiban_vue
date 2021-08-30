@@ -26,6 +26,7 @@
     |- server # node服务器配置
     |- index.html # 入口文件
     |- index.js # 入口js文件
+    |- store #Vuex相关配置
     |- .gitignore # 指定不被git记录的文件, 例如本地配置`config.js`就不应该提交到git
     |- .babelrc # babel配置相关, 可根据需求自行扩展
     |- package.json # 项目基本信息配置
